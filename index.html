@@ -1,0 +1,32 @@
+<title>Todo | List</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/to-do.js"></script>
+
+<div class="wrapper">
+  <div class="to-do">
+
+    <div class="add-task">
+      <h1>Add Task</h1>
+      <div id="message"></div>
+      <input type="text" autocomplete="off" maxlength="60" placeholder="Your task" id="task" />
+      
+      <button title="Save" id="btn" class="btn btn-default"> 
+        <i class="small material-icons">mode_edit</i>
+      </button>
+    </div>
+
+    <div class="tasks">
+        <h1>Your Tasks <small id="task-count"></small></h1>
+
+        <div class="list">
+          <small id="small">Nothing at the moment</small>          
+        </div>
+    </div>
+  </div>
+
+</div>
